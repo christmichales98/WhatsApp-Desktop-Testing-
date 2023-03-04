@@ -1,0 +1,16 @@
+Feature: Open the WhtasApp
+      - As a user
+       - I want to able to log in the WhatsApp app
+       - So that I can access my account information
+
+Scenario: Get Started WhatsApp application
+       - Given a user, i login application
+       - When I set up WhatsApp on computer desktop
+       - Then, open whatsapp on your phone
+       - On whatsapp phone, tap menu or settings and select Linked Devices
+       - Tap link devices and point my phone to this screen to capture the code
+       - and then tap 'Lanjut' after screen to capture the code
+       - The device has been connected automaticly
+        - have taken the WhatsApp dashborad
+       - So that application can be able to show messages 
+       - I can voice call or video call otherwise chat message
